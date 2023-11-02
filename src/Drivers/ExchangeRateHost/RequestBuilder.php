@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Http;
 
 class RequestBuilder implements RequestSender
 {
-    private const BASE_URL = 'api.exchangerate.host/';
+    private const BASE_URL = 'https://api.frankfurter.app/';
 
     private string $apiKey;
 
